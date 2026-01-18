@@ -1,0 +1,24 @@
+{
+  "dataset_01": {
+    "model": "DBSCAN",
+    "params": {
+      "eps": 1.7000000000000002,
+      "min_samples": 3
+    },
+    "criteria": "silhouette_score"
+  },
+  "dataset_02": {
+    "model": "KMeans",
+    "params": {
+      "k": 2
+    },
+    "criteria": "silhouette_score"
+  },
+  "dataset_03": {
+    "model": "KMeans",
+    "params": {
+      "k": 3
+    },
+    "criteria": "silhouette_score"
+  }
+}
