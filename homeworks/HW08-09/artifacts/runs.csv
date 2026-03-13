@@ -1,0 +1,2 @@
+experiment_id, dataset        , seed, model_summary                                  , optimizer, lr   , momentum, weight_decay, epochs_trained, best_val_accuracy , best_val_loss
+E1           , EMNIST-balanced,   42, "MLP (256, 128) ReLU, no Dropout, no BatchNorm", Adam     , 0.001,      0.0,          0.0,             15, 0.8439706920903954, 0.49377587707029225

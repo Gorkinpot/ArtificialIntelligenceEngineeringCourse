@@ -1,0 +1,19 @@
+{
+  "experiment_id": "E4",
+  "dataset": "EMNIST-balanced",
+  "seed": 42,
+  "hidden_sizes": [
+    256,
+    128
+  ],
+  "use_dropout": false,
+  "dropout_p": 0.0,
+  "use_batchnorm": true,
+  "optimizer": "Adam",
+  "lr": 0.001,
+  "weight_decay": 0.0,
+  "batch_size": 128,
+  "max_epochs": 30,
+  "early_stopping_patience": 4,
+  "test_accuracy": 0.8434538995327593
+}
