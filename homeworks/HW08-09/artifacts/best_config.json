@@ -1,6 +1,6 @@
 {
   "experiment_id": "E4",
-  "dataset": "EMNIST-balanced",
+  "dataset": "EMNIST",
   "seed": 42,
   "hidden_sizes": [
     256,

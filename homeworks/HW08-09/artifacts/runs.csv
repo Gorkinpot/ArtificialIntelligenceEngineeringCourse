@@ -1,2 +1,8 @@
-experiment_id, dataset        , seed, model_summary                                  , optimizer, lr   , momentum, weight_decay, epochs_trained, best_val_accuracy , best_val_loss
-E1           , EMNIST-balanced,   42, "MLP (256, 128) ReLU, no Dropout, no BatchNorm", Adam     , 0.001,      0.0,          0.0,             15, 0.8439706920903954, 0.49377587707029225
+experiment_id,dataset,seed,model_summary,optimizer,lr,momentum,weight_decay,epochs_trained,best_val_accuracy,best_val_loss
+E1,EMNIST,42,MLP 256-128 ReLU no Dropout no BatchNorm,Adam,0.001,0.0,0.0,15,0.8439706920903954,0.49377587707029225
+E2,EMNIST,42,MLP 256-128 ReLU Dropout p=0.3 BatchNorm=no,Adam,0.001,0.0,0.0,15,0.8450300141242938,0.46401839303431536
+E3,EMNIST,42,MLP 256-128 ReLU Dropout=no BatchNorm=yes,Adam,0.001,0.0,0.0,15,0.8490907485875706,0.46118770396642095
+E4,EMNIST,42,MLP 256-128 ReLU Dropout=False BatchNorm=True,Adam,0.001,0.0,0.0,12,0.8500176553672316,0.4597477454923641
+O1,EMNIST,42,MLP 256-128 ReLU Dropout=False BatchNorm=True,Adam,0.1,0.0,0,8,0.8119262005649718,0.6079445925809569
+O2,EMNIST,42,MLP 256-128 ReLU Dropout=False BatchNorm=True,Adam,1e-05,0.0,0,8,0.6673728813559322,1.642442112588613
+O3,EMNIST,42,MLP 256-128 ReLU Dropout=False BatchNorm=True,SGD,0.005,0.9,0.0001,12,0.8456479519774012,0.47484587545448775
