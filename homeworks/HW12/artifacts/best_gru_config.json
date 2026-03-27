@@ -1,0 +1,16 @@
+{
+  "model_type": "GRU",
+  "input_size": 1,
+  "hidden_size": 64,
+  "num_layers": 2,
+  "dropout": 0.2,
+  "window_size": 24,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "epochs_trained": 14,
+  "seed": 42,
+  "scaler": "standard_target",
+  "optimizer": "adam",
+  "best_val_loss": 0.19186823926866053,
+  "device": "cpu"
+}
